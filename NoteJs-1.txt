@@ -1,0 +1,18 @@
+11/24：
+賦值運算子+=、-=、a++、a--。
+String+Number，=String(自動轉型) 。
+NaN=String*Number ，但type of 還是numer。
+---
+字串編譯成數字: let age = parseInt("30");(前提裡面的字串要是數字，若非，則NaN)。
+---
+【字串】
+String.length => 字串的長度。
+String.trim() => 字串中刪除空白(頭尾的都刪除)。
+---
+ES6不一樣不一樣!!
+let myName="Tom";
+let myAge=18;
+let content="您好我是"+myName+"我今年"+myAge+"歲";
+---
+ES6:省去很多+的寫法 => 反引號、 ${變數名稱} 。
+let contet=`您好我是${myName},我今年${myAge}歲`; 
